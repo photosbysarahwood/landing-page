@@ -1,7 +1,15 @@
-/* Decent Defaults */
+/* Share Styles */
 
 img,
 video {
   width: 100%;
   height: auto;
+}
+
+/* Mobile Only */
+@media (max-width: 47.9375em) {
+}
+
+/* Desktop Only */
+@media (min-width: 48em) {
 }
