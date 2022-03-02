@@ -6,10 +6,32 @@ video {
   height: auto;
 }
 
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.card {
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
+}
+
+.mw-24 {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
 /* Mobile Only */
 @media (max-width: 47.9375em) {
+  .flex {
+    flex-direction: column;
+  }
 }
 
 /* Desktop Only */
 @media (min-width: 48em) {
+  .flex > * {
+    width: 100%;
+  }
 }
