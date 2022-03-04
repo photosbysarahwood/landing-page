@@ -12,9 +12,16 @@ video {
 }
 
 .card {
+  overflow: hidden;
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
+}
+
+.container {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .mw-24 {
@@ -23,13 +30,26 @@ video {
 }
 
 h1 {
+  font-size: 4rem;
   margin: 2rem;
   color: rgb(16, 58, 100);
 }
 
 h2 {
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   color: rgb(16, 58, 100);
+}
+
+button {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+  background-color: rgba(219, 83, 42, 0.836);
+  color: white;
 }
 
 /* Mobile Only */
