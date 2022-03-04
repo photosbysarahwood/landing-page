@@ -9,16 +9,24 @@ video {
 .flex {
   display: flex;
   gap: 1rem;
-  margin: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .card {
   overflow: hidden;
   border-radius: 1rem;
-  padding: 2rem;
   box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
+  margin: 1rem;
 }
 
+.card p {
+  padding-left: 1rem;
+}
+
+.card h2 {
+  padding-left: 1rem;
+}
 .container {
   max-width: 96rem;
   margin: 0 auto;
@@ -30,20 +38,33 @@ video {
   margin: 0 auto;
 }
 
+.header {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
 h1 {
+  font-family: "Exo";
+  font-weight: 900;
+  font-style: italic;
   font-size: 4rem;
   margin: 2rem;
   color: rgb(16, 58, 100);
 }
 
 h2 {
+  font-family: "Exo";
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: rgb(16, 58, 100);
 }
 
 button {
+  font-family: "Gill Sans";
   margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
