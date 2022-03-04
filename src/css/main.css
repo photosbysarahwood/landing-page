@@ -22,6 +22,16 @@ video {
   margin: 0 auto;
 }
 
+h1 {
+  margin: 2rem;
+  color: rgb(16, 58, 100);
+}
+
+h2 {
+  margin: 1rem;
+  color: rgb(16, 58, 100);
+}
+
 /* Mobile Only */
 @media (max-width: 47.9375em) {
   .flex {
