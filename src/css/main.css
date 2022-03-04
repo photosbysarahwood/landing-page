@@ -1,7 +1,6 @@
 /* Share Styles */
 
-img,
-video {
+img video {
   width: 100%;
   height: auto;
 }
@@ -20,12 +19,20 @@ video {
   margin: 1rem;
 }
 
+.card img {
+  width: 600px; /* width of container */
+  height: 200px; /* height of container */
+  object-fit: cover;
+}
+
 .card p {
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .card h2 {
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 .container {
   max-width: 96rem;
@@ -45,32 +52,33 @@ video {
 }
 
 h1 {
-  font-family: "Exo";
+  font-family: "Bely Display";
   font-weight: 900;
-  font-style: italic;
   font-size: 4rem;
   margin: 2rem;
-  color: rgb(16, 58, 100);
+  color: darkolivegreen;
 }
 
 h2 {
-  font-family: "Exo";
+  font-family: "Bely";
+  font-style: italic;
+  font-size: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  color: rgb(16, 58, 100);
+  color: darkolivegreen;
 }
 
 button {
   font-family: "Gill Sans";
   margin-top: 1rem;
   margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   border: none;
-  background-color: rgba(219, 83, 42, 0.836);
+  background-color: rgb(212, 153, 24);
   color: white;
 }
 
