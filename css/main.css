@@ -40,6 +40,11 @@ img video {
   text-align: center;
 }
 
+.image {
+  min-width: 400px;
+  object-fit: cover;
+}
+
 .container {
   max-width: 96rem;
   margin: 0 auto;
@@ -89,6 +94,10 @@ button {
   color: white;
 }
 
+button:hover {
+  opacity: 0.5;
+}
+
 .greensection {
   background-color: darkolivegreen;
 }
@@ -102,20 +111,22 @@ button {
 .Sarah h2 {
   font-size: 3rem;
   color: white;
-  padding-left: 10rem;
+  max-width: 50ch;
 }
 
 .Sarah p {
   color: white;
   font-size: 1.4rem;
   font-family: "Gill Sans";
-  padding-left: 10rem;
+  max-width: 50ch;
 }
 
 .aboutme {
   display: flex;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  flex-wrap: wrap;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  justify-content: center;
 }
 
 .image img {
@@ -123,6 +134,8 @@ button {
   width: 400px; /* width of container */
   height: 600px; /* height of container */
   object-fit: cover;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
 }
 
 /* Mobile Only */
