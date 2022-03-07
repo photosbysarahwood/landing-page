@@ -39,6 +39,7 @@ img video {
   padding-right: 1rem;
   text-align: center;
 }
+
 .container {
   max-width: 96rem;
   margin: 0 auto;
@@ -98,26 +99,26 @@ button {
   padding-bottom: 1rem;
 }
 
-.inlineimage h2 {
+.Sarah h2 {
   font-size: 3rem;
   color: white;
   padding-left: 10rem;
 }
 
-.inlineimage p {
+.Sarah p {
   color: white;
   font-size: 1.4rem;
   font-family: "Gill Sans";
   padding-left: 10rem;
 }
 
-.inlineimage {
-  padding-left: 10rem;
-  padding-right: 10rem;
+.aboutme {
+  display: flex;
+  padding-left: 15rem;
+  padding-right: 15rem;
 }
 
-.inlineimage img {
-  margin-left: 10rem;
+.image img {
   display: flex;
   width: 400px; /* width of container */
   height: 600px; /* height of container */
